@@ -17,7 +17,6 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById("root"));
 import Navbar from "./components/navbar";
 import Main from "./components/main.jsx";
-import AnimalContainer from "./apps.jsx";
 import Joke from "./apps.jsx";
 
 function Pages() {
