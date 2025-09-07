@@ -1,5 +1,11 @@
 export default function Joke(Props) {}
-m;
+
+const names = ["emmanuel", "joseph", "prince", "barry", "ebby"];
+const capitalizedNames = names.map((names) => {
+  return names.charAt(0).toUpperCase() + names.slice(1);
+});
+
+console.log(capitalizedNames);
 /* 
   Square them
   return (
