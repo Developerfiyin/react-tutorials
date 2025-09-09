@@ -1,6 +1,10 @@
 export default function Navbar(Props) {
   return (
-    <article className="journal">
+    <main>
+      <input type="text" placeholder="e.g Fiyinfoluwa" className="inp" />{" "}
+      <input type="text" placeholder="=+add ingredient" className="collector" />
+    </main>
+    /* <article className="journal">
       <div className="main-image-container">
         <img src={Props.img.src} alt={Props.img.alt} />
       </div>
@@ -19,6 +23,6 @@ export default function Navbar(Props) {
         <p className="trip-dates">{Props.date} </p>
         <p className="entry-text"> {Props.text}</p>
       </div>
-    </article>
+    </article>*/
   );
 }

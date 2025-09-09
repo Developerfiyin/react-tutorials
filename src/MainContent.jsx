@@ -14,14 +14,19 @@
 }*/
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
-import Main from "./components/main.jsx";
+import Header from "./components/header.jsx";
+import Navbar from "./components/navbar";
 import "./index.css";
 import App from "./App.jsx";
 
-/*createRoot(document.getElementById("root")).render* */ <StrictMode>
+<StrictMode>
   <App />
 </StrictMode>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
-import Navbar from "./components/navbar";
 
-root.render(<Main />);
+root.render(
+  <>
+    <Header />
+    <Navbar />
+  </>
+);
