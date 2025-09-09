@@ -2,7 +2,7 @@ export default function Navbar(Props) {
   return (
     <main>
       <input type="text" placeholder="e.g Fiyinfoluwa" className="inp" />{" "}
-      <input type="text" placeholder="=+add ingredient" className="collector" />
+      <input type="text" placeholder="+Add ingredient" className="collector" />
     </main>
     /* <article className="journal">
       <div className="main-image-container">

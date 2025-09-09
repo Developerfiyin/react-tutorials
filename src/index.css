@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,16 +27,8 @@ a:hover {
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  /* place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  */
+  background-color: #ffffffc2;
 }
-/*img {
-  left: 2rem;
-  position: absolute;
-} 
-*/
 
 header {
   display: flex;
@@ -60,6 +51,25 @@ header > h1 {
   font-family: Inter, sans-serif;
 }
 
+input {
+  margin-top: 30px;
+  margin-left: 12px;
+  border-radius: 5px;
+
+  border: none;
+  padding: 7px;
+}
+
+.inp {
+  background-color: #ffffff;
+  width: 25%;
+  height: 30px;
+}
+.collector {
+  background-color: #020202;
+  text-align: center;
+  color: 3px solid white;
+}
 article.journal {
   display: flex;
   margin-bottom: 36px;
