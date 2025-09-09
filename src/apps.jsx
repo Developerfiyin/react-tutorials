@@ -7,7 +7,7 @@ export default function Joke(Props) {
     <h2>Ebby </h2>,
   ];
 
-  return { names };
+  return [names];
 }
 
 /* 
