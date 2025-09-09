@@ -1,8 +1,8 @@
 export default function Main() {
   return (
     <header>
-      <img src="/src/assets/global.png" alt="The global logo" />
-      <span>My travel Journal </span>
+      <img src="/src/assets/chief claude.png" alt="The chief claude icon" />
+      <h1>Chief Claude</h1>
     </header>
   );
 }
