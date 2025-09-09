@@ -1,14 +1,72 @@
-export default function Joke(Props) {
-  const names = [
-    <h2>Emmanuel</h2>,
-    <h2>Joseph </h2>,
-    <h2>Prince </h2>,
-    <h2>Barry </h2>,
-    <h2>Ebby </h2>,
-  ];
+export default  [
+  {
+    img = {
+      src: "./src/assets/mount fuji.png",
+      alt: "mount fuji image",
+    },
+      name = "Mount Fuji",
+      date = "12 Jan 2021 - 24 Jan 2021",
+      text ="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters(12,380,600km) the single most popular tourist site in Japan.",
+      GoggleLink = "https://maps.app.goo.gl/LbHsS5HRgcfaAjcy5";
+  },
+  {
+    img = {
+      src: "./src/assets/sydney.jpg",
+      alt: "sydney opera house image",
+    },
+      name = "Austraila ";
+    date = "12 Jan 2021 - 24 Jan 2021";
+    text ="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380,600km) the single most popular tourist site in Japan";
+    GoggleLink = "https://maps.app.goo.gl/LbHsS5HRgcfaAjcy5";
+  },
 
-  return [names];
-}
+  
+    {
+      img = {
+        src: "./src/assets/mount fuji.png",
+        alt: "mount fuji image",
+      },
+        name = "Mount Fuji",
+        date = "12 Jan 2021 - 24 Jan 2021",
+        text =
+          "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters(12,380,600km) the single most popular tourist site in Japan.",
+        GoggleLink = "https://maps.app.goo.gl/LbHsS5HRgcfaAjcy5";
+    },
+    {
+      img = {
+        src: "./src/assets/mount fuji.png",
+        alt: "mount fuji image",
+      },
+        name = "Mount Fuji",
+      date = "12 Jan 2021 - 24 Jan 2021",
+      text =
+        "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380,600km) the single most popular tourist site in Japan";
+      GoggleLink = "https://maps.app.goo.gl/LbHsS5HRgcfaAjcy5",
+    },
+    {
+      img = {
+        src: "./src/assets/mount fuji.png",
+        alt: "mount fuji image",
+     }
+      name = "Mount Fuji",
+        date = "12 Jan 2021 - 24 Jan 2021",
+        text =
+          "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters(12,380,600km) the single most popular tourist site in Japan.",
+        GoggleLink = "https://maps.app.goo.gl/LbHsS5HRgcfaAjcy5";
+    },
+    {
+      img = {
+        src: "./src/assets/mount fuji.png",
+        alt: "mount fuji image",
+      },
+        name = "Mount Fuji",
+      date = "12 Jan 2021 - 24 Jan 2021",
+      text =
+        "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380,600km) the single most popular tourist site in Japan";
+      GoggleLink = "https://maps.app.goo.gl/LbHsS5HRgcfaAjcy5",
+    }
+  
+]
 
 /* 
   Square them

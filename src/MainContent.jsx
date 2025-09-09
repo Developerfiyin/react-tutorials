@@ -12,14 +12,30 @@
     </main>
   );
 }*/
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
 
-const root = createRoot(document.getElementById("root"));
+/*createRoot(document.getElementById("root")).render* */ <StrictMode>
+  <App />
+</StrictMode>;
+
 import Navbar from "./components/navbar";
 import Main from "./components/main.jsx";
 import Joke from "./apps.jsx";
 
 function Pages() {
+  const dataMap = Joke.map((data) => {
+    return (
+      <Joke
+        img={{
+          src: src.data.img,
+        }}
+      />
+    );
+  });
+
   //Pages
   return (
     <>
@@ -61,4 +77,4 @@ function Pages() {
   );
 }
 
-root.render(<Pages />);
+//root.render();
