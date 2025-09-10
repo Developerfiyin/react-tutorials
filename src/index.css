@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /*color-scheme: light dark;*/
   color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
@@ -27,7 +27,7 @@ a:hover {
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #ffffffc2;
+  background-color: #ffffff;
 }
 
 header {
@@ -35,10 +35,9 @@ header {
   justify-content: center;
   align-items: center;
   height: 83px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1) 0px 1px 2px
+  box-shadow: 0px 1px 3px 5px rgba(7, 2, 2, 0.514) 0px 1px 2px 8px
     rgba(0, 0, 0, 0.274);
   background-color: #ffffff;
-  color: #020202;
 }
 
 header > img {
@@ -47,23 +46,26 @@ header > img {
 
 header > h1 {
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
   font-family: Inter, sans-serif;
+  color: #020202;
 }
 
 form {
   margin-top: 30px;
   margin-left: 12px;
-  border-radius: 5px;
-  border: none;
-  padding: 7px;
 }
-
 .inp {
-  background-color: #ffffff;
+  gap: 12px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+  border: 1px solid #fffff9;
   width: 25%;
   height: 30px;
-  color: #020202;
+  min-width: 150px;
+  max-width: 400px;
 }
 
 button {
@@ -72,7 +74,7 @@ button {
   transition: 3s;
   cursor: pointer;
   border: none;
-  padding: 8px;
+  padding: 8px 10px;
   border-radius: 4px;
 }
 

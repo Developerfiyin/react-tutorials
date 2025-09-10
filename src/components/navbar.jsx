@@ -2,7 +2,12 @@ export default function Navbar(Props) {
   return (
     <main>
       <form action="">
-        <input type="text" placeholder="e.g Fiyinfoluwa" className="inp" />{" "}
+        <input
+          type="text"
+          placeholder="e.g Fiyinfoluwa"
+          className="inp"
+          required
+        />{" "}
         <button className="collector">+ Add ingredient </button>
       </form>
     </main>
