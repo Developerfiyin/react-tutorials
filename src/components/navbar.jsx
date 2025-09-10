@@ -1,4 +1,12 @@
 export default function Navbar() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert("Form submitted!");
+    const formData = new FormData(e.currentTarget);
+    const newIngredient = FormData.get("ingredient");
+    ingredients.push(newIngredient);
+    console.log(newIngredient);
+  }
   const ingredients = [
     "banana",
     "salad",
@@ -8,10 +16,11 @@ export default function Navbar() {
   const ingredientsList = ingredients.map((ingredient) => (
     <li key={ingredient}>{ingredient}</li>
   ));
+
   console.log(ingredientsList);
   return (
     <main>
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="e.g Fried rice"
@@ -19,7 +28,7 @@ export default function Navbar() {
           className="inp"
           required
         />{" "}
-        <button className="collector"> Add ingredient </button>
+        <button> Add ingredient </button>
       </form>
       <ul>
         {ingredients.map((ingredient) => (
