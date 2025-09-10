@@ -1,8 +1,10 @@
 export default function Navbar(Props) {
   return (
     <main>
-      <input type="text" placeholder="e.g Fiyinfoluwa" className="inp" />{" "}
-      <input type="text" placeholder="+Add ingredient" className="collector" />
+      <form action="">
+        <input type="text" placeholder="e.g Fiyinfoluwa" className="inp" />{" "}
+        <button className="collector">+ Add ingredient </button>
+      </form>
     </main>
     /* <article className="journal">
       <div className="main-image-container">
