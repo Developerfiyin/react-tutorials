@@ -1,14 +1,20 @@
-export default function Main() {
-  function onClick() {
-    alert("This Button is Clicked!");
-  }
+import { useState } from "react";
 
-  function handleClick() {
+export default function Main() {
+  //function justClick() {
+  const [count, setCount] = useState(0);
+  const handleClick = () => {
+    setCount(count + 1);
+  };
+  console.log(handleClick);
+
+  function hanleClick() {
     alert("double click on the img");
   }
   return (
     <>
-      <button onClick={onClick}>Click me</button>;
+      <h4>You Clicked this button {count} times</h4>
+      <button onClick={hanleClick}>Click me</button>;
       <img
         src="/src/assets/react.svg"
         alt="react.svg"
