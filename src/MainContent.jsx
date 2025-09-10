@@ -16,6 +16,7 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/header.jsx";
 import Navbar from "./components/navbar";
+import Main from "./main.jsx";
 import "./index.css";
 import App from "./App.jsx";
 
@@ -28,5 +29,6 @@ root.render(
   <>
     <Header />
     <Navbar />
+    <Main />
   </>
 );

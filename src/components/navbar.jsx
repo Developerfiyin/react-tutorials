@@ -1,15 +1,31 @@
-export default function Navbar(Props) {
+export default function Navbar() {
+  const ingredients = [
+    "banana",
+    "salad",
+    "eba and egusi",
+    "spagetti and fish sauce",
+  ];
+  const ingredientsList = ingredients.map((ingredient) => (
+    <li key={ingredient}>{ingredient}</li>
+  ));
+  console.log(ingredientsList);
   return (
     <main>
       <form action="">
         <input
           type="text"
-          placeholder="e.g Fiyinfoluwa"
+          placeholder="e.g Fried rice"
+          aria-label="name"
           className="inp"
           required
         />{" "}
-        <button className="collector">+ Add ingredient </button>
+        <button className="collector"> Add ingredient </button>
       </form>
+      <ul>
+        {ingredients.map((ingredient) => (
+          <li key={ingredient}>{ingredient}</li>
+        ))}
+      </ul>
     </main>
     /* <article className="journal">
       <div className="main-image-container">
